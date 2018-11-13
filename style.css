@@ -57,7 +57,7 @@ header.startup h1 {
   text-transform: uppercase;
   border-radius: 300px;
   font-family: 'Montserrat', sans-serif;
-  top:60%;
+  top:50%;
   left: 50%;
   transform: translate(-50%,-50%)
 }
