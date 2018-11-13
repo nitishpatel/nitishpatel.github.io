@@ -30,7 +30,10 @@ header.startup {
 
 header.startup hr {
   margin-top: 200px;
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
+   top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%)
 }
 
 header.startup h1 {
@@ -55,7 +58,7 @@ header.startup h1 {
   border-radius: 300px;
   font-family: 'Montserrat', sans-serif;
   top:60%;
-  left: 40%;
+  left: 45%;
   transform: translate(-50%,-50%)
 }
 
