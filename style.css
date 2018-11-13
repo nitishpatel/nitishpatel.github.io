@@ -36,8 +36,9 @@ header.startup hr {
 header.startup h1 {
   font-size: 2rem;
   position: absolute;
-  top:40%;
-  left: 20%;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 .col-sm-12 h1{
   font-size: 20px;
