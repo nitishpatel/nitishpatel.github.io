@@ -11770,7 +11770,7 @@ r=P.bL(12,k,j,l)
 q=P.bL(61,k,j,l)
 p=P.bL(61,(16711680&c.gq(c))>>>16,(65280&c.gq(c))>>>8,(255&c.gq(c))>>>0)
 o=b.jv(P.bL(222,(16711680&c.gq(c))>>>16,(65280&c.gq(c))>>>8,(255&c.gq(c))>>>0))
-return K.VX(t,a,n,s,r,n,n,b.jv(P.bL(222,k,j,l)),C.tD,n,o,p,q,n,n,C.wH)},
+return K.VX(t,a,n,s,r,n,n,b.jv(P.bL(222,k,j,l)),C.tC,n,o,p,q,n,n,C.wH)},
 a14:function(a,b,a0){var t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=null,c=a==null
 if(c&&b==null)return d
 t=c?d:a.a
@@ -26903,8 +26903,8 @@ i:function(a){return this.b}}
 M.u1.prototype={
 gdL:function(a){var t=this.e
 if(t!=null)return t
-switch(this.c){case C.k7:case C.n7:return C.tA
-case C.n8:return C.tB}return C.bB},
+switch(this.c){case C.k7:case C.n7:return C.tz
+case C.n8:return C.tA}return C.bB},
 giR:function(a){var t=this.f
 if(t!=null)return t
 switch(this.c){case C.k7:case C.n7:return C.vS
@@ -40575,10 +40575,10 @@ $0:function(){P.f0("Tap Event")},
 $S:0}
 Y.tP.prototype={
 N:function(a){var t=null
-return new T.f5(C.aM,t,t,new T.hI(C.tz,L.yQ("I am a Developer from Mumbai, I enjoy building everything from small sites to interactive Web & Mobile apps. I also have a deep interest in Cyber-Security. I Hate People who use Spaces instead of Tabs,Always thinking for some startup ideas ,I love Indie Music,Street Food,Cricket.",B.Wv(C.j,16),t),t),t)}}
+return new T.f5(C.aM,t,t,new T.hI(C.tD,L.yQ("I am a Developer from Mumbai, I enjoy building everything from small sites to interactive Web & Mobile apps. I also have a deep interest in Cyber-Security. I Hate People who use Spaces instead of Tabs,Always thinking for some startup ideas ,I love Indie Music,Street Food,Cricket.",B.Wv(C.j,16),t),t),t)}}
 Y.tQ.prototype={
 N:function(a){var t=null
-return new T.f5(C.aM,t,t,new T.hI(C.tC,L.yQ("I am a Developer from Mumbai, I enjoy building everything from small sites to interactive Web & Mobile apps. I also have a deep interest in Cyber-Security. I Hate People who use Spaces instead of Tabs,Always thinking for some startup ideas ,I love Indie Music,Street Food,Cricket.",B.Wv(C.j,20),t),t),t)}}
+return new T.f5(C.aM,t,t,new T.hI(C.tB,L.yQ("I am a Developer from Mumbai, I enjoy building everything from small sites to interactive Web & Mobile apps. I also have a deep interest in Cyber-Security. I Hate People who use Spaces instead of Tabs,Always thinking for some startup ideas ,I love Indie Music,Street Food,Cricket.",B.Wv(C.j,20),t),t),t)}}
 F.wd.prototype={
 N:function(a){return new S.ov(new Y.o_(null),"Portfolio",X.XH(null,new P.H(4293749338),new P.H(4284766118),new P.H(4284756339)),!1,null)}}
 N.my.prototype={
@@ -42620,11 +42620,11 @@ C.tx=new P.aw(5e6)
 C.kg=new P.aw(6e5)
 C.bB=new V.aS(0,0,0,0)
 C.ty=new V.aS(0,50,0,20)
-C.tz=new V.aS(100,20,100,20)
-C.tA=new V.aS(16,0,16,0)
-C.tB=new V.aS(24,0,24,0)
-C.tC=new V.aS(400,20,400,20)
-C.tD=new V.aS(4,4,4,4)
+C.tz=new V.aS(16,0,16,0)
+C.tA=new V.aS(24,0,24,0)
+C.tB=new V.aS(400,20,400,20)
+C.tC=new V.aS(4,4,4,4)
+C.tD=new V.aS(60,20,60,20)
 C.tF=new P.GV("FilterQuality.low")
 C.a1=new P.a2(0,0)
 C.tG=new U.vb(C.a1,C.a1)
