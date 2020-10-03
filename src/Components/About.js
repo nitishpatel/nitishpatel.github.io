@@ -22,7 +22,7 @@ const About = () => {
                         
 
                         </p>
-                        <button  className='btn btn-outline-dark '>Hire Me</button>
+                        <a href="#contact" className='btn btn-outline-dark '>Hire Me</a>
                         <a  href="https://github.com/nitishpatel/nitishpatel/raw/master/Resume.pdf" className='btn btn-warning ml-2'>Download CV</a>
                     </div>
                 </div>
