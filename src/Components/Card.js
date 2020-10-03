@@ -4,7 +4,7 @@ const Card = ({title,image,description,link}) => {
     return (
             <div className="feature_item card   project shadow-sm border-0">
                 <div className="card-body "><img src={image} alt="" className="img-fluid " />
-                    <h6 className="text-center"> {title}</h6>
+                    <h6 className="text-center pt-2"> {title}</h6>
                     <p >{description}</p>
                    
                 </div>

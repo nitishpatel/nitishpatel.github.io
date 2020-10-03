@@ -25,7 +25,7 @@ const Project = () => {
           
             {projects.map((project,index)=>{
             return(
-              <div className="col-lg-3" key={index}>
+              <div className="col-lg-4" key={index}>
                 <Card title={project.name} image={project.image} description={project.description} />
 
               </div>
