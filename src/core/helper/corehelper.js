@@ -1,5 +1,5 @@
 export const getProjects = ()=>{
-    return fetch('https://nitishpatel.herokuapp.com/api/projects/',{
+    return fetch('https://raw.githubusercontent.com/nitishpatel/nitishpatel/master/project.json',{
         method:"GET"
     })
     .then(data=>data.json())
