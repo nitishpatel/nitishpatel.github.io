@@ -1,5 +1,5 @@
 export const getProjects = ()=>{
-    return fetch('https://raw.githubusercontent.com/nitishpatel/nitishpatel/master/project.json',{
+    return fetch('https://api.jsonbin.io/b/5f7da873302a837e957637b6',{
         method:"GET"
     })
     .then(data=>data.json())
