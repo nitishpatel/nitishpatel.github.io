@@ -6,6 +6,7 @@ import Gallery from '../Components/Gallery'
 import Landing from '../Components/Landing'
 import Lanugages from '../Components/Lanugages'
 import Project from '../Components/Project'
+
 const Home = () => {
     return (
         <div className="protfolio-wrap">

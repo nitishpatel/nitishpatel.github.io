@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import "../bootstrap-social.css";
 import Social from "./Social";
-import {submitMessage} from "../core/helper/corehelper"
+import firebase from "../firebase"
 const Contact = () => {
   const [state, setState] = useState({
     name:"",
@@ -18,34 +18,36 @@ const Contact = () => {
 const {name,email,phone,message} = state;
 const onSubmit = event =>{
   event.preventDefault();
-  submitMessage({name,email,phone,message})
-  .then(data=>{
-    if(data.email===email){
-        setState(
-            {
-                name:"",
-                email:"",
-                phone:"",
-                message:"",
-                success:true,
-            }
-        )
-    }else{
-        setState({
-            ...state,
-            success:false
-        })
-    }
-  })
-  .catch(e=>console.log(e));
+  firebase.firestore().collection('contacts').add({
+    name:name,
+    email:email,
+    phone:phone,
+    message:message
+
+  }).then(
+    setState({
+      name:"",
+      email:"",
+      phone:"",
+      message:"",
+      success:true,
+      error:"",
+    })
+  )
 
 }
 
   return (
     <div className="container  contact" id="contact">
       <h3 className="text-center">Contact me</h3>
+      
       <div className="row">
         <div className="col-lg-6 offset-md-3">
+          {state.success && (
+            <div class="alert alert-success" role="alert">
+              Your Message / Feedback was submitted.
+          </div>
+          )}
           <form>
             <div className="form-group">
               <label for="exampleFormControlInput1">Name</label>
@@ -91,6 +93,7 @@ const onSubmit = event =>{
                 rows="3"
                 onChange={handleChange("message")}
                 value = {message}
+                required
               ></textarea>
             </div>
             <button onClick={onSubmit} type="submit" className="btn btn-primary text-center align-items-center">Submit</button>
