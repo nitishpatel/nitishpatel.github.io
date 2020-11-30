@@ -18,12 +18,12 @@ const Project = () => {
 
   return (
     <div className="container projects" id="project">
-      <h3 className="text-center">Projects</h3>
+      <h3 className="text-center" data-aos="slide-up">Projects</h3>
 
       <div className="row">
         {projects.map((project, index) => {
           return (
-            <div className="col-lg-4" key={index}>
+            <div className="col-lg-4" data-aos="zoom-in" key={index}>
               <a className="text-dark" href={project.url} ><Card
                 title={project.name}
                 image={project.image}

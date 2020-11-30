@@ -6,8 +6,14 @@ import Gallery from '../Components/Gallery'
 import Landing from '../Components/Landing'
 import Lanugages from '../Components/Lanugages'
 import Project from '../Components/Project'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Home = () => {
+    useEffect(() => {
+        AOS.init({duration:1500})
+      }, [])
     return (
         <div className="protfolio-wrap">
             <Landing />

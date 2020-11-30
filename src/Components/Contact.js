@@ -38,7 +38,7 @@ const onSubmit = event =>{
 }
 
   return (
-    <div className="container  contact" id="contact">
+    <div className="container  contact" data-aos="flip-left" id="contact">
       <h3 className="text-center">Contact me</h3>
       
       <div className="row">

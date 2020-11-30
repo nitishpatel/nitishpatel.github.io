@@ -2,10 +2,10 @@ import React from 'react'
 
 const Landing = () => {
     return (
-        <div className="container-fluid landing">
+        <div className="container-fluid landing ">
         <header className="default-header">
           <nav className="navbar navbar-expand-lg  navbar-light">
-            <div className="container">
+            <div className="container animate__animated animate__tada">
               <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="text-white lnr lnr-menu" />
               </button>
@@ -22,15 +22,15 @@ const Landing = () => {
             </div>
           </nav>
         </header>
-        <div className="row">
+        <div className="row ">
           <div className="col-lg-6 align-self-center pl-4 ">
-            <h1 className="display-3">Hello ,</h1>
-            <h1>I am Nitish Patel</h1>
-            <h2 className="font-weight-bold languages">
+            <h1 className="display-3 animate__animated animate__fadeInDownBig">Hello ,</h1>
+            <h1 className="animate__animated animate__fadeInRight">I am Nitish Patel</h1>
+            <h2 className="font-weight-bold languages animate__animated animate__fadeInTopLeft">
               Python , React , Flutter Dev
             </h2>
           </div>
-          <div className="col-lg-6 col-sm-12">
+          <div className="col-lg-6 col-sm-12 animate__animated animate__jackInTheBox">
             <svg className="blob" viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <clipPath id="user-space" clipPathUnits="userSpaceOnUse">
