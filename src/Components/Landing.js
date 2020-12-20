@@ -25,8 +25,8 @@ const Landing = () => {
         <div className="row ">
           <div className="col-lg-6 align-self-center pl-4 ">
             <h1 className="display-3 animate__animated animate__fadeInDownBig">Hello ,</h1>
-            <h1 className="animate__animated animate__fadeInRight">I am Nitish Patel</h1>
-            <h2 className="font-weight-bold languages animate__animated animate__fadeInTopLeft">
+            <h2 className="display-4 animate__animated animate__fadeInRight">I am Nitish Patel</h2>
+            <h2 className="display-4 font-weight-bold languages animate__animated animate__fadeInTopLeft">
               Python , React , Flutter Dev
             </h2>
           </div>
