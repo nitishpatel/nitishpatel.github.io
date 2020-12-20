@@ -1,11 +1,11 @@
 import React from "react";
 import { Box, Heading, Flex, Text, Button,Avatar,AvatarBadge } from "@chakra-ui/react";
 import ProfileImage from "../images/personal.png"
-const MenuItems = ({ children }) => (
-  <Text mt={{ base: 4, md: 0 }} mr={6} display="block">
-    {children}
-  </Text>
-);
+// const MenuItems = ({ children }) => (
+//   <Text mt={{ base: 4, md: 0 }} mr={6} display="block">
+//     {children}
+//   </Text>
+// );
 
 // Note: This code could be better, so I'd recommend you to understand how I solved and you could write yours better :)
 const Header = props => {
