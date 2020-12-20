@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Heading, Flex, Text, Button,Avatar,AvatarBadge } from "@chakra-ui/react";
+import { Box, Heading, Flex,  Button,Avatar,AvatarBadge } from "@chakra-ui/react";
 import ProfileImage from "../images/personal.png"
 // const MenuItems = ({ children }) => (
 //   <Text mt={{ base: 4, md: 0 }} mr={6} display="block">
