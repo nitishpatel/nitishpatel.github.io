@@ -32,7 +32,10 @@ const Blogs = () => {
           {state.items.map((item, index) => {
             return (
               <div className="col-lg-4 mt-4">
-                <div className="feature_item card   project shadow-sm border-0">
+                <div
+                  data-aos="flip-right"
+                  className="feature_item card   project shadow-sm border-0"
+                >
                   <div className="card-body ">
                     <img src={item.thumbnail} alt="" className="img-fluid " />
                     <h6 className="text-center pt-2"> {item.title}</h6>

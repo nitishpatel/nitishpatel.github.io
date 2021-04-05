@@ -3,7 +3,7 @@ import React from "react";
 const Gallery = () => {
   return (
     <div className="container gallery" id="gallery">
-      <h3 data-aos="flip-up " className="font-weight-bolder">
+      <h3 data-aos="flip-up" className="font-weight-bolder">
         Photos by me
       </h3>
       <div className="row">
