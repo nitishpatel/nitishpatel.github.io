@@ -13,13 +13,13 @@ export const AuthProvider = ({ children }) => {
   if (pending) {
     return (
       <div>
-        <div class="header-bar-chargement" id="loadbar_conatainer">
-      <div class="progress-container-chargement ">
-        <div class="progress-bar-chargement " id="loadbar"></div>
+        <div className="header-bar-chargement" id="loadbar_conatainer">
+      <div className="progress-container-chargement ">
+        <div className="progress-bar-chargement " id="loadbar"></div>
       </div>
     </div>
     
-    <p class="loading-text">Loading...</p>
+    <p className="loading-text">Loading...</p>
       </div>
     );
   }

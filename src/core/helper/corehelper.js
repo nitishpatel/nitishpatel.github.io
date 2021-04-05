@@ -5,6 +5,13 @@ export const getProjects = ()=>{
     .then(data=>data.json())
     .catch(err=>console.log(err))
 }
+export const getBlogs = ()=>{
+    return fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@patelnitish',{
+        method:"GET"
+    })
+    .then(data=>data.json())
+    .catch(err=>console.log(err))
+}
 
 export const submitMessage=  message =>{
     return fetch(`https://nitishpatel.herokuapp.com/api/contact/`,{

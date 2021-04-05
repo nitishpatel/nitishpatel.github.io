@@ -1,6 +1,13 @@
 import React from "react";
-import { Box, Heading, Flex,  Button,Avatar,AvatarBadge } from "@chakra-ui/react";
-import ProfileImage from "../images/personal.png"
+import {
+  Box,
+  Heading,
+  Flex,
+  Button,
+  Avatar,
+  AvatarBadge,
+} from "@chakra-ui/react";
+import ProfileImage from "../images/personal.jpg";
 // const MenuItems = ({ children }) => (
 //   <Text mt={{ base: 4, md: 0 }} mr={6} display="block">
 //     {children}
@@ -8,7 +15,7 @@ import ProfileImage from "../images/personal.png"
 // );
 
 // Note: This code could be better, so I'd recommend you to understand how I solved and you could write yours better :)
-const Header = props => {
+const Header = (props) => {
   const [show, setShow] = React.useState(false);
   const handleToggle = () => setShow(!show);
 
@@ -25,9 +32,9 @@ const Header = props => {
     >
       <Flex align="center" mr={5}>
         <Heading as="h1" size="lg" letterSpacing={"-.1rem"}>
-        <Avatar size="lg" name="Nitish Patel" src={ProfileImage} >
-        <AvatarBadge boxSize="1.25em" bg="green.500" />
-            </Avatar>  
+          <Avatar size="lg" name="Nitish Patel" src={ProfileImage}>
+            <AvatarBadge boxSize="1.25em" bg="green.500" />
+          </Avatar>
         </Heading>
       </Flex>
 
@@ -42,8 +49,6 @@ const Header = props => {
           <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
         </svg>
       </Box>
-
-    
 
       <Box
         display={{ sm: show ? "block" : "none", md: "block" }}
